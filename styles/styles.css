@@ -1,0 +1,96 @@
+html{
+    background-image: url("../assets/cocktails.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "Crimson Text", serif;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+h2{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: black; */
+    padding: 1em 1.5em;
+    border-radius: 10px;
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 300;
+    height: 300; 
+  }
+  
+img:hover {
+    box-shadow: 0 0 2px 1px grey;
+}
+
+a{
+    background-color: white;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* input[type="button"], input[type="submit"]{
+    background-color: ;
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    text-transform: uppercase;
+} */
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
